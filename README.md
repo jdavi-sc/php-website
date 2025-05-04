@@ -1,50 +1,22 @@
-# Avaliação de PWII
+## 📄 Descrição
 
-## 📝 Descrição da Atividade
+Este é um programa **básico e iniciante** desenvolvido em **PHP**, que permite o **cadastro de produtos** por meio de um formulário HTML e o armazenamento dessas informações em um banco de dados **MySQL**. O objetivo do projeto é praticar conceitos fundamentais de desenvolvimento web, como envio de dados via formulário, conexão com banco de dados e organização de arquivos em um servidor local. O foco deste projeto está na prática de **PHP** e **manipulação de banco de dados**, portanto **não houve preocupação com estilização (CSS) nem com a semântica do código HTML**. O objetivo principal é o aprendizado da lógica de funcionamento entre o backend e o banco de dados..
 
-Nesta atividade de **Programação Web II (PWII)**, os alunos deverão desenvolver a interface e a lógica de uma aplicação básica com páginas em PHP, utilizando conexão com banco de dados e estilização via CSS.
+## 🛠️ Ferramentas utilizadas
+![Php](https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=PHP&logoColor=white)
 
-## 🎯 Objetivos
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-- Na página `home.php` , realizar a estilização da tela utilizando CSS para melhorar a aparência.
-- Deverá ser desenvolvido um menu
-- Adicionar um **link no menu** que leve para a tela de **cadastro de produtos**.
-- Criar a tela `cadastro-produto.html` com um **formulário de cadastro de produtos e estilizar a tela**.
-- Criar o script de cadastro no `cadastro-produto.php` para inserir os dados do **formulário de cadastro de produtos**
-- Implementar a **inserção dos dados no banco de dados** via PHP.
+![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
 
----
+![Xampp](https://img.shields.io/badge/XAMPP-FB7A24.svg?style=for-the-badge&logo=XAMPP&logoColor=white)
 
-## 📄 Estrutura esperada
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### `home.php`
-- Deve conter um **menu de navegação** com, no mínimo:
-  - Link para a própria `home.php`
-  - Link para `cadastro-produto.php`
-- A página deve estar **estilizada** com CSS (externo).
-  
-### `cadastro-produto.php`
-- Formulário com os seguintes campos:
-  - Nome do produto
-  - Marca
-  - Preço
-  - Descrição
-- Um botão para **salvar o produto** no banco de dados.
-- Exibição de mensagem de sucesso ou erro.
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
----
+![github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)
 
-## 🗄️ Banco de Dados
+## 🔍 Referências
 
-Você deverá criar a tabela `produtos` com os seguintes atributos:
-
-    id 
-    nome
-    marca
-    preco
-    descricao 
-    quantidade
-    categoria 
-    caminho do produto 
-    data_cadastro 
-    ativo
+Este projeto foi desenvolvido como parte dos estudos no curso técnico de Desenvolvimento de Sistemas da [**ETEC Uirapuru**](https://etecuirapuru.com.br/).
